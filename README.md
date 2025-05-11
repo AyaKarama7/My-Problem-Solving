@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -17,4 +18,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
