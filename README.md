@@ -42,4 +42,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
