@@ -8,8 +8,8 @@ public class Solution {
         {
             
             char num=strs[0][j];
-            int i=0;
-            for(;i<n;i++)
+
+            for(int i=0;i<n;i++)
             {
                 if(num!=strs[i][j])return res;
             }
