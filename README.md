@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Matrix
 |  |
@@ -46,8 +47,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0014-longest-common-prefix) |
+| [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0014-longest-common-prefix) |
+## Hash Table
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
