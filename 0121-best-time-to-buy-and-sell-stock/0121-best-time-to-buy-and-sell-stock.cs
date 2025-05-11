@@ -1,6 +1,7 @@
 public class Solution {
     public int MaxProfit(int[] prices) {
         int n=prices.Length;
+        if(n==1)return 0;
         int[] maxNext=new int[n];
         maxNext[n-1]=prices[n-1];
         int mx=0;
