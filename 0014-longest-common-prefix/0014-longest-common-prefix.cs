@@ -1,25 +1,19 @@
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
-        Array.Sort(strs);
-        int len=strs[0].Length;
-        int l=1,r=len,mid=0;
-        while(l<=r)
+        int n=strs.Length,m=201;
+        string res="";
+        foreach(var s in strs)m=Math.Min(m,s.Length);
+        for(int j=0;j<m;j++)
         {
-            mid=(l+r)/2;
-            if(IsCommon(strs,mid)==true)l=mid+1;
-            else r=mid-1;
-        }
-        return strs[0].Substring(0,(l+r)/2);
-    }
-    public bool IsCommon(string[] strs,int mid)
-    {
-        for(int i=0;i<mid;i++)
-        {
-            foreach(var s in strs)
+            
+            char num=strs[0][j];
+            int i=0;
+            for(;i<n;i++)
             {
-                if(s[i]!=strs[0][i])return false;
+                if(num!=strs[i][j])return res;
             }
+            res+=num;
         }
-        return true;
+        return res;
     }
 }
