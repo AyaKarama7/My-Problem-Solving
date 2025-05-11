@@ -1,15 +1,11 @@
 public class Solution {
     public bool IsAnagram(string s, string t) {
         if(s.Length!=t.Length)return false;
-        Dictionary<char,int> freq=new Dictionary<char,int>();
-        foreach(var i in s)
-        {
-            if(freq.ContainsKey(i))freq[i]++;
-            else freq[i]=1;
-        }
+        int[] freq=new int[26];
+        foreach(var i in s)freq[i-'a']++;
         foreach(var i in t)
         {
-            if(freq.ContainsKey(i)&&freq[i]>0)freq[i]--;
+            if(freq[i-'a']>0)freq[i-'a']--;
             else return false;
         }
         return true;
