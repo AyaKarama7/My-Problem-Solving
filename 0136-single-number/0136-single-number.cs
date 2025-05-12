@@ -1,15 +1,10 @@
 public class Solution {
     public int SingleNumber(int[] nums) {
-        Dictionary<int,int>freq=new Dictionary<int,int>();
+        int res=0;
         foreach(var i in nums)
         {
-            if(freq.ContainsKey(i))freq[i]++;
-            else freq[i]=1;
+            res=res^i;
         }
-        foreach(var i in freq)
-        {
-            if(i.Value==1)return i.Key;
-        }
-        return 0;
+        return res;
     }
 }
