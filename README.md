@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Matrix
@@ -60,9 +62,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0020-valid-parentheses) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
