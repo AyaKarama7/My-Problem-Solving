@@ -2,7 +2,7 @@ public class Solution {
     public void MoveZeroes(int[] nums) {
         int n=nums.Length;
         if(n==1)return;
-        int z=nums.Length;
+        int z=n;
         for(int i=0;i<n;i++)
         {
             if(nums[i]!=0&&z!=n)
