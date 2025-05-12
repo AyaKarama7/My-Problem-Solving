@@ -1,5 +1,5 @@
 public class Solution {
-    
+    //recurrence relation
     public int ClimbStairs(int n) {
         if(n<=2)return n;
         int[] fepo=new int[n+1];
