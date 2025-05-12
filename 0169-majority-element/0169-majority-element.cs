@@ -1,18 +1,18 @@
 public class Solution {
     public int MajorityElement(int[] nums) {
-        Dictionary<int,int>freq=new Dictionary<int,int>();
-        foreach(var i in nums)
-        {
-            if(freq.ContainsKey(i))
-            {
-                freq[i]++;
-            }
-            else freq[i]=1;
-        }
-        foreach(var i in freq)
-        {
-            if(i.Value>nums.Length/2)return i.Key;
-        }
-        return 0;
+       //num should be > n/2 
+       //so at most half of the elements != num 
+       //so we can say num is the positive and other nums is negative 
+       //and num with freq > 0 is the answer 
+       int num=nums[0];
+       int freq=1;
+       for(int i=1;i<nums.Length;i++)
+       {
+        if(nums[i]==num)freq++;
+        else if(freq==1)num=nums[i];
+        else freq--;
+
+       }
+       return num;
     }
 }
