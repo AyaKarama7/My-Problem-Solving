@@ -14,24 +14,28 @@ public class Solution {
             map[nums[i]].Add(i);
         }
        }
-       int idx=0;
-       foreach(var i in nums)
+       Array.Sort(nums);
+       int l=0,r=nums.Length-1;
+       while(l<r)
        {
-        int x=target-i;
-        if(!map.ContainsKey(x))idx++;
-        else if(x==i&&map[i].Count==1)idx++;
-        else if(x!=i)
+        int t=nums[l]+nums[r];
+        if(t==target)
         {
-            res[0]=idx;
-            res[1]=map[x][0];
-            return res;
+            if(nums[l]==nums[r])
+            {
+                res[0]=map[nums[l]][0];
+                res[1]=map[nums[r]][1];
+                return res;
+            }
+            else
+            {
+                res[0]=map[nums[l]][0];
+                res[1]=map[nums[r]][0];
+                return res;
+            }
         }
-        else 
-        {
-            res[0]=idx;
-            res[1]=map[x][1];
-            return res;
-        }
+        else if(t>target)r--;
+        else l++;
        }
        return res;
     }
