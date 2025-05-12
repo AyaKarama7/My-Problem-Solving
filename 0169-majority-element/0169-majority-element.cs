@@ -1,20 +1,11 @@
 public class Solution {
     public int MajorityElement(int[] nums) {
-        int k=nums[0];
-        Dictionary<int,int>freq=new Dictionary<int,int>();
-        foreach(var i in nums)
+        Array.Sort(nums);//2 3 3 
+        int n=nums.Length;//3
+        for(int i=0;i<=n-n/2;i++)
         {
-            if(freq.ContainsKey(i))
-            {
-                freq[i]++;
-                if(freq[i]>(nums.Length/2))
-                {
-                    k=i;
-                    return k;
-                }
-            }
-            else freq[i]=1;
+            if(nums[i]==nums[i+n/2])return nums[i];
         }
-        return k;
+        return 0;
     }
 }
