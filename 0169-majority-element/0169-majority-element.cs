@@ -15,6 +15,7 @@ public class Solution {
                 }
             }
             else freq[i]=1;
+            if(freq[i]>nums.Length/2)return i;
         }
         return k;
     }
