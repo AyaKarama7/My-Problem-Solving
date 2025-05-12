@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
+| [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
+| [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 ## Greedy
 |  |
 | ------- |
