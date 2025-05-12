@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
@@ -58,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0001-two-sum) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
