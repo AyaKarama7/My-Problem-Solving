@@ -4,7 +4,9 @@ public class Solution {
         for(int i=0;i<nums.Length;i++)
         {
             if(freq.ContainsKey(nums[i]))
-            freq[nums[i]]++;
+            {
+                if(freq[nums[i]]<2)freq[nums[i]]++;
+            }
             else 
             {
                 freq[nums[i]]=1;
@@ -13,7 +15,7 @@ public class Solution {
         int idx=0;
         foreach(var it in freq)
         {
-            int l=Math.Min(2,it.Value);
+            int l=it.Value;
             while(l-->0)nums[idx++]=it.Key;
         }
         return idx;
