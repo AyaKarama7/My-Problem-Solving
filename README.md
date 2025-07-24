@@ -11,11 +11,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0070-climbing-stairs) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
 |  |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
+| [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 ## Stack
 |  |
 | ------- |
@@ -78,4 +81,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
