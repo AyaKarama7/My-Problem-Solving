@@ -36,8 +36,7 @@ public class RandomizedSet {
     public int GetRandom() {
        
         int index = rand.Next(RS.Count);
-        int randomElement = RS[index];
-        return randomElement;
+        return RS[index];
 
     }
 }
