@@ -2,16 +2,18 @@ public class RandomizedSet {
 
     List<int>RS;
     Dictionary<int,int> freq;
+     Random rand;
     public RandomizedSet() {
         RS=new List<int>();
         freq=new Dictionary<int,int>();
+        rand = new Random();
     }
     
     public bool Insert(int val) {
         if(freq.ContainsKey(val))return false;
         else
         {
-            freq[val]=1;
+            freq[val]=RS.Count;
             RS.Add(val);
             return true;
         }
@@ -21,14 +23,18 @@ public class RandomizedSet {
         if(!freq.ContainsKey(val))return false;
         else
         {
+            int last=RS[^1];
+            int idx=freq[val];
+            RS[idx]=last;
+            freq[last]=idx;
+            RS.RemoveAt(RS.Count - 1);
             freq.Remove(val);
-            RS.Remove(val);
             return true;
         }
     }
     
     public int GetRandom() {
-        Random rand = new Random();
+       
         int index = rand.Next(RS.Count);
         int randomElement = RS[index];
         return randomElement;
