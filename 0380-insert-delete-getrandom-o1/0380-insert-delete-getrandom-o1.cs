@@ -1,23 +1,27 @@
 public class RandomizedSet {
 
-    HashSet<int>RS;
+    List<int>RS;
+    Dictionary<int,int> freq;
     public RandomizedSet() {
-        RS=new HashSet<int>();
+        RS=new List<int>();
+        freq=new Dictionary<int,int>();
     }
     
     public bool Insert(int val) {
-        if(RS.Contains(val))return false;
+        if(freq.ContainsKey(val))return false;
         else
         {
+            freq[val]=1;
             RS.Add(val);
             return true;
         }
     }
     
     public bool Remove(int val) {
-        if(!RS.Contains(val))return false;
+        if(!freq.ContainsKey(val))return false;
         else
         {
+            freq.Remove(val);
             RS.Remove(val);
             return true;
         }
@@ -26,7 +30,7 @@ public class RandomizedSet {
     public int GetRandom() {
         Random rand = new Random();
         int index = rand.Next(RS.Count);
-        int randomElement = RS.ElementAt(index);
+        int randomElement = RS[index];
         return randomElement;
 
     }
