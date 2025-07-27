@@ -6,22 +6,19 @@ public class Solution {
         int R=intervals[0][1];
         for(int i=1;i<intervals.Length;i++)
         {
-            int a=intervals[i][0];
-            int b=intervals[i][1];
-            if(a<=R)
+            if(intervals[i][0]<=R)
             {
-                if(b>R)R=b;
+                if(intervals[i][1]>R)R=intervals[i][1];
             }
             else 
             {
                 ans.Add(new List<int>{L,R});
-                L=a;
-                R=b;
+                L=intervals[i][0];
+                R=intervals[i][1];
             }
         }
         ans.Add(new List<int>{L,R});
-        int s=ans.Count;
-        int[][]res=new int[s][];
+        int[][]res=new int[ans.Count][];
         int idx=0;
         foreach(var i in ans)
         {
