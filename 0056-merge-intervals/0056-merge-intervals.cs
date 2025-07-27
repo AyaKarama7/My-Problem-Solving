@@ -1,5 +1,7 @@
 public class Solution {
     public int[][] Merge(int[][] intervals) {
+        if (intervals == null || intervals.Length == 0)
+            return new int[0][];
         Array.Sort(intervals,(a, b) => a[0].CompareTo(b[0]));
         List<int[]>ans=new List<int[]>();
         int L=intervals[0][0];
