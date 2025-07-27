@@ -1,6 +1,6 @@
 public class Solution {
     public int[][] Merge(int[][] intervals) {
-        Array.Sort(intervals,(a, b) => a[0]-b[0]);
+        Array.Sort(intervals,(a, b) => a[0].CompareTo(b[0]));
         List<int[]>ans=new List<int[]>();
         int L=intervals[0][0];
         int R=intervals[0][1];
