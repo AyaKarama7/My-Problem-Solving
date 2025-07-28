@@ -1,23 +1,25 @@
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
-        if(intervals.Length==0)return new int[][]{newInterval};
-        int n=intervals.Length,L=0,R=n-1,target=newInterval[0];
-        while(L<=R)
-        {
-            int mid=L+(R-L)/2;
-            if(intervals[mid][0]<=target)L=mid+1;
-            else R=mid-1;
+        List<int[]> result = new List<int[]>();
+        int i = 0, n = intervals.Length;
+
+        while (i < n && intervals[i][1] < newInterval[0]) {
+            result.Add(intervals[i]);
+            i++;
         }
-        List<int[]>ans=new List<int[]>();
-        for(int i=0;i<L;i++)ans.Add(intervals[i]);
-        ans.Add(newInterval);
-        for(int i=L;i<n;i++)ans.Add(intervals[i]);
-        List<int[]>merge=new List<int[]>();
-        foreach(var i in ans)
-        {
-            if(merge.Count==0||merge[merge.Count-1][1]<i[0])merge.Add(i);
-            else merge[merge.Count-1][1]=Math.Max(merge[merge.Count-1][1],i[1]);
+
+        while (i < n && intervals[i][0] <= newInterval[1]) {
+            newInterval[0] = Math.Min(newInterval[0], intervals[i][0]);
+            newInterval[1] = Math.Max(newInterval[1], intervals[i][1]);
+            i++;
         }
-        return merge.ToArray();
+        result.Add(newInterval);
+
+        while (i < n) {
+            result.Add(intervals[i]);
+            i++;
+        }
+
+        return result.ToArray();
     }
 }
