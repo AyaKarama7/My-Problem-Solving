@@ -1,5 +1,6 @@
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
+        if(intervals.Length==0)return new int[][]{newInterval};
         List<int[]> result = new List<int[]>();
         int i = 0, n = intervals.Length;
 
