@@ -1,27 +1,23 @@
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
-        //check overlap
-        //sort 
-        List<int[]>ans=new List<int[]>();
-        foreach(var i in intervals)
+        if(intervals.Length==0)return new int[][]{newInterval};
+        int n=intervals.Length,L=0,R=n-1,target=newInterval[0];
+        while(L<=R)
         {
-            //maxL <= minR
-            int maxL=Math.Max(i[0],newInterval[0]);//4 
-            int minR=Math.Min(i[1],newInterval[1]);//2
-            if(maxL<=minR)
-            {
-                newInterval[0]=Math.Min(i[0],newInterval[0]);
-                newInterval[1]=Math.Max(i[1],newInterval[1]);
-            }
-            else 
-            {
-                ans.Add(i);
-            }
-            //newInterval=i;
+            int mid=L+(R-L)/2;
+            if(intervals[mid][0]<=target)L=mid+1;
+            else R=mid-1;
         }
+        List<int[]>ans=new List<int[]>();
+        for(int i=0;i<L;i++)ans.Add(intervals[i]);
         ans.Add(newInterval);
-        int[][]res=ans.ToArray();
-        Array.Sort(res,(a,b)=>a[0].CompareTo(b[0]));
-        return res;
+        for(int i=L;i<n;i++)ans.Add(intervals[i]);
+        List<int[]>merge=new List<int[]>();
+        foreach(var i in ans)
+        {
+            if(merge.Count==0||merge[merge.Count-1][1]<i[0])merge.Add(i);
+            else merge[merge.Count-1][1]=Math.Max(merge[merge.Count-1][1],i[1]);
+        }
+        return merge.ToArray();
     }
 }
