@@ -1,6 +1,5 @@
 public class Solution {
     public int EvalRPN(string[] tokens) {
-        if(tokens.Length==1)return int.Parse(tokens[0]);
         Stack<int> st=new Stack<int>();
         foreach(var i in tokens)
         {
