@@ -8,12 +8,10 @@ public class Solution {
             {
                 st.Push(x);
             }
-            else if(st.Count>1)
+            else
             {
-                int num1=st.Peek();
-                st.Pop();
-                int num2=st.Peek();
-                st.Pop();
+                int num1=st.Pop();
+                int num2=st.Pop();
                 if(i=="+")num2+=num1;
                 else if(i=="-")num2-=num1;
                 else if(i=="*")num2*=num1;
