@@ -1,17 +1,17 @@
 public class Solution {
     public int EvalRPN(string[] tokens) {
         Stack<int> st=new Stack<int>();
+        int num1,num2;
         foreach(var i in tokens)
         {
-            int x;
-            if(int.TryParse(i,out x))
+            if(int.TryParse(i,out num1))
             {
-                st.Push(x);
+                st.Push(num1);
             }
             else
             {
-                int num1=st.Pop();
-                int num2=st.Pop();
+                num1=st.Pop();
+                num2=st.Pop();
                 if(i=="+")num2+=num1;
                 else if(i=="-")num2-=num1;
                 else if(i=="*")num2*=num1;
