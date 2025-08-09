@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Divide and Conquer
 |  |
 | ------- |
