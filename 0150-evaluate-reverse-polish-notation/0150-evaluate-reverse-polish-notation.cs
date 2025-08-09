@@ -1,22 +1,23 @@
 public class Solution {
     public int EvalRPN(string[] tokens) {
         Stack<int> st=new Stack<int>();
-        int num1,num2;
+        int a,b;
         foreach(var i in tokens)
         {
-            if(int.TryParse(i,out num1))
+            if(int.TryParse(i,out a))
             {
-                st.Push(num1);
+                st.Push(a);
             }
             else
             {
-                num1=st.Pop();
-                num2=st.Pop();
-                if(i=="+")num2+=num1;
-                else if(i=="-")num2-=num1;
-                else if(i=="*")num2*=num1;
-                else num2/=num1;
-                st.Push(num2);
+                b=st.Pop();
+                a=st.Pop();
+                switch (i) {
+                    case "+": st.Push(a + b); break;
+                    case "-": st.Push(a - b); break;
+                    case "*": st.Push(a * b); break;
+                    case "/": st.Push(a / b); break;
+                }
             }
         }
         return st.Peek();
