@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0165-compare-version-numbers](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0165-compare-version-numbers) |
+| [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 ## Greedy
 |  |
