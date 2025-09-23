@@ -5,7 +5,7 @@ public class Solution {
         for(int i=0;i<n;i++)
         {
             if(i>mx)return false;
-            mx=Math.Max(mx,i+nums[i]);
+            if(mx<(i+nums[i]))mx=i+nums[i];
         }
         return true;
     }
