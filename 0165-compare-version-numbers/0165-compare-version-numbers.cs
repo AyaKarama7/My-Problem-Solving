@@ -19,21 +19,20 @@ public class Solution {
 
         List<int>v2=SubString(version2);
 
-        int i=0,j=0;
-        while(i<v1.Count&&j<v2.Count)
+        int i=0;
+        while(i<v1.Count&&i<v2.Count)
         {
             if(v1[i]<v2[i])return -1;
             if(v1[i]>v2[i])return 1;
             i++;
-            j++;
         }
         while(i<v1.Count)
         {
             if(v1[i++]>0)return 1;
         }
-        while(j<v2.Count)
+        while(i<v2.Count)
         {
-            if(v2[j++]>0)return -1;
+            if(v2[i++]>0)return -1;
         }
         return 0;
     }
