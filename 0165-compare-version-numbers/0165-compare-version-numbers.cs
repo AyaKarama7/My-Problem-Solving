@@ -1,16 +1,14 @@
 public class Solution {
     private List<int>SubString(string s)
     {
-        int startIdx=0,dotIdx,num;
+        int startIdx=0,dotIdx;
         List<int>nums=new List<int>();
         while((dotIdx=s.IndexOf('.',startIdx))!=-1)
         {
-            num=int.Parse(s.Substring(startIdx,dotIdx-startIdx));
-            nums.Add(num);
+            nums.Add(int.Parse(s.Substring(startIdx,dotIdx-startIdx)));
             startIdx=dotIdx+1;
         }
-        num=int.Parse(s.Substring(startIdx));
-        nums.Add(num);
+        nums.Add(int.Parse(s.Substring(startIdx)));
         return nums;
     }
     public int CompareVersion(string version1, string version2) {
