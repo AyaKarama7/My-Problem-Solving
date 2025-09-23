@@ -14,6 +14,7 @@ public class Solution {
         return nums;
     }
     public int CompareVersion(string version1, string version2) {
+        if(version1==version2)return 0;
         List<int>v1=SubString(version1);
 
         List<int>v2=SubString(version2);
