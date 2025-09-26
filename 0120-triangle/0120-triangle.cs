@@ -2,6 +2,7 @@ public class Solution {
     IList<IList<int>> grid;
     public int MinimumTotal(IList<IList<int>> triangle) {
         int n=triangle.Count;
+        if(n==1)return triangle[0][0];
         int[,] dp = new int[n + 1, n + 1];
         for (int i = 0; i <= n; i++)
         {
