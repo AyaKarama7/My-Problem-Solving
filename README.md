@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
+| [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
+| [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Matrix
 |  |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0165-compare-version-numbers) |
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
+| [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 ## Greedy
 |  |
 | ------- |
@@ -55,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -111,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
+## Binary Search
+|  |
+| ------- |
+| [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 <!---LeetCode Topics End-->
