@@ -3,10 +3,10 @@ public class Solution {
     public int MinimumTotal(IList<IList<int>> triangle) {
         int n=triangle.Count;
         if(n==1)return triangle[0][0];
-        int[,] dp = new int[n + 1, n + 1];
-        for (int i = 0; i <= n; i++)
+        int[,] dp = new int[n , n ];
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j <= n; j++)
+            for (int j = 0; j < n; j++)
             {
                 dp[i, j] = int.MaxValue;
             }
