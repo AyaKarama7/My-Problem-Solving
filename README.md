@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0165-compare-version-numbers](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0165-compare-version-numbers) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 ## Geometry
 |  |
