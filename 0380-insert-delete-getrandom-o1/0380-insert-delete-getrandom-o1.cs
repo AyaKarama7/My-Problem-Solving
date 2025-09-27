@@ -1,43 +1,35 @@
 public class RandomizedSet {
-
-    List<int>RS;
-    Dictionary<int,int> freq;
-     Random rand;
+    Dictionary<int,int>map;
+    List<int>set;
+    int idx;
+    Random rand;
     public RandomizedSet() {
-        RS=new List<int>();
-        freq=new Dictionary<int,int>();
-        rand = new Random();
+        map=new Dictionary<int,int>();
+        set=new List<int>();
+        rand=new Random();
+        idx=0;
     }
     
     public bool Insert(int val) {
-        if(freq.ContainsKey(val))return false;
-        else
-        {
-            freq[val]=RS.Count;
-            RS.Add(val);
-            return true;
-        }
+        if(map.ContainsKey(val))return false;
+        map[val]=idx;
+        idx++;
+        set.Add(val);
+        return true;
     }
     
     public bool Remove(int val) {
-        if(!freq.ContainsKey(val))return false;
-        else
-        {
-            int last=RS[^1];
-            int idx=freq[val];
-            RS[idx]=last;
-            freq[last]=idx;
-            RS.RemoveAt(RS.Count - 1);
-            freq.Remove(val);
-            return true;
-        }
+        if(!map.ContainsKey(val))return false;
+        set[map[val]]=set[idx-1];
+        map[set[idx-1]]=map[val];
+        set.RemoveAt(idx-1);
+        map.Remove(val);
+        idx--;
+        return true;
     }
     
     public int GetRandom() {
-       
-        int index = rand.Next(RS.Count);
-        return RS[index];
-
+        return set[rand.Next(idx)];
     }
 }
 
