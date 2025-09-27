@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0283-move-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
+| [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
+| [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
 |  |
@@ -121,4 +123,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0162-find-peak-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0162-find-peak-element) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->
