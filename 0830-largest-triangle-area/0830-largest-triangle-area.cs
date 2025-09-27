@@ -1,7 +1,7 @@
 public class Solution {
     public double LargestTriangleArea(int[][] points) {
         int n=points.Length;
-        double Area=-10000.0;
+        double Area=double.MinValue;
         for(int i=0;i<n-2;i++)
         {
             for(int j=i+1;j<n-1;j++)
