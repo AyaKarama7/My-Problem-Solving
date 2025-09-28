@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 | [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
+| [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0380-insert-delete-getrandom-o1) |
 | [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
+| [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Sorting
 |  |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0242-valid-anagram) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
+| [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Matrix
 |  |
@@ -64,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
+| [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
 ## Dynamic Programming
 |  |
 | ------- |
