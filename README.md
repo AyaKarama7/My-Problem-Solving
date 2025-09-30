@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0611-valid-triangle-number) |
 | [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Math
 |  |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1111-minimum-score-triangulation-of-polygon) |
 ## Memoization
 |  |
 | ------- |
