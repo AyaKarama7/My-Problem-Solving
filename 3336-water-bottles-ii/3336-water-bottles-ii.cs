@@ -1,8 +1,7 @@
 public class Solution {
-    int full=0,em=0,ex=0,d=0;
-    public int MaxBottlesDrunk(int numBottles, int numExchange) {
-        d=em=numBottles;
-        ex=numExchange;
+    int em=0,d=0;
+    public int MaxBottlesDrunk(int full, int ex) {
+        d=em=full;
         full=0;
         while(em>=ex||full>0)
         {
