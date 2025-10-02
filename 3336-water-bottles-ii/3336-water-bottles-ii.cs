@@ -1,8 +1,6 @@
 public class Solution {
-    int em=0,d=0;
-    public int MaxBottlesDrunk(int full, int ex) {
-        if(full<ex)return full;
-        d=em=full;
+    public int MaxBottlesDrunk(int d, int ex) {
+        int em=d;
         while(em>=ex)
         {
             d++;
