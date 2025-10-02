@@ -3,21 +3,11 @@ public class Solution {
     public int MaxBottlesDrunk(int full, int ex) {
         if(full<ex)return full;
         d=em=full;
-        full=0;
-        while(em>=ex||full>0)
+        while(em>=ex)
         {
-            if(em>=ex)
-            {
-                full++;
-                em-=ex;
-                ex++;
-            }
-            else if(full>0)
-            {
-                d+=full;
-                em+=full;
-                full=0;
-            }
+            d++;
+            em-=ex-1;//1 that taken by full
+            ex++;
         }
         return d;
 
