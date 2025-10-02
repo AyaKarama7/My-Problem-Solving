@@ -4,28 +4,19 @@ public class Solution {
         d=em=numBottles;
         ex=numExchange;
         full=0;
-        bool isDrink=false,isExchange;
-        if(em>=ex)isExchange=true;
-        else isExchange=false;
-        while(isExchange||isDrink)
+        while(em>=ex||full>0)
         {
-            if(isExchange)
+            if(em>=ex)
             {
                 full++;
-                isDrink=true;
                 em-=ex;
                 ex++;
-                if(em>=ex)isExchange=true;
-                else isExchange=false;
             }
-            else if(isDrink)
+            else if(full>0)
             {
                 d+=full;
                 em+=full;
                 full=0;
-                isDrink=false;
-                if(em>=ex)isExchange=true;
-                else isExchange=false;
             }
         }
         return d;
