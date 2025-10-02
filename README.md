@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/1018-largest-perimeter-triangle) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3336-water-bottles-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/3336-water-bottles-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -136,4 +137,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/0830-largest-triangle-area) |
+## Simulation
+|  |
+| ------- |
+| [3336-water-bottles-ii](https://github.com/AyaKarama7/My-Problem-Solving/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
